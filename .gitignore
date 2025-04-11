@@ -1,0 +1,42 @@
+﻿# ───────────────────────────────
+# General compiled files
+# ───────────────────────────────
+*.dll
+*.exe
+*.pdb
+
+# Ignore all Assemblies output
+/1.4/Assemblies/
+/1.5/Assemblies/
+
+# ───────────────────────────────
+# Visual Studio / C# build folders
+# ───────────────────────────────
+/Source/**/bin/
+/Source/**/obj/
+
+# ───────────────────────────────
+# User/IDE-specific files
+# ───────────────────────────────
+.vs/
+*.user
+*.suo
+*.csproj.user
+
+# ───────────────────────────────
+# Backup and temporary files
+# ───────────────────────────────
+*.bak
+*.tmp
+*.~*
+Thumbs.db
+.DS_Store
+
+# ───────────────────────────────
+# Unity-generated (if used)
+/Library/
+/Temp/
+/Logs/
+/Obj/
+/Build/
+/Builds/
