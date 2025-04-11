@@ -1,17 +1,18 @@
-<TraiDefs>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
   <TraitDef>
     <defName>OptimistPlus</defName>
-    <label>optimist+</label>
-    <description>THis pawn sees the bright side of absolutely everything. They're annoyingly postive.</description>
     <commonality>0.3</commonality>
-    <degreeData>
+    <degreeDatas>
       <li>
         <label>optimist+</label>
         <description>Gets a bigger mood boost than a regular optimists.</description>
         <statOffsets>
-          <MoodOffset>15</MoodOffset>
+          <Mood>0.2</Mood>
         </statOffsets>
       </li>
-    </degreeData>
+    </degreeDatas>
   </TraitDef>
-</TraiDefs>
+
+</Defs>
