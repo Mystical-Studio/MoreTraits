@@ -1,0 +1,17 @@
+<TraiDefs>
+  <TraitDef>
+    <defName>OptimistPlus</defName>
+    <label>optimist+</label>
+    <description>THis pawn sees the bright side of absolutely everything. They're annoyingly postive.</description>
+    <commonality>0.3</commonality>
+    <degreeData>
+      <li>
+        <label>optimist+</label>
+        <description>Gets a bigger mood boost than a regular optimists.</description>
+        <statOffsets>
+          <MoodOffset>15</MoodOffset>
+        </statOffsets>
+      </li>
+    </degreeData>
+  </TraitDef>
+</TraiDefs>
