@@ -4,7 +4,7 @@
 
   <ThoughtDef>
     <defName>OptimistPlusThought</defName>
-    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>MoreTraits.Thoughts.ThoughtWorker_OptimistPlus</workerClass>
     <stages>
       <li>
         <label>feeling upbeat</label>
