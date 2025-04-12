@@ -3,14 +3,12 @@
 
   <TraitDef>
     <defName>OptimistPlus</defName>
-    <commonality>0.3</commonality>
+    <label>optimist+</label>
+    <commonality>0.5</commonality>
     <degreeDatas>
       <li>
         <label>optimist+</label>
-        <description>Gets a bigger mood boost than a regular optimists.</description>
-        <statOffsets>
-          <Mood>0.2</Mood>
-        </statOffsets>
+        <description>This pawn always feels a bit better about everything.</description>
       </li>
     </degreeDatas>
   </TraitDef>

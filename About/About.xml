@@ -1,10 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <ModMetaData>
   <name>More Traits</name>
-  <author>Thomas Froud</author>
+  <author>YourNameHere</author>
+  <packageId>YourName.MoreTraits</packageId>
   <supportedVersions>
     <li>1.5</li>
   </supportedVersions>
   <description>
-    Adds more trait variety for colonists.
+    Adds new traits like Optimist+.
   </description>
 </ModMetaData>
