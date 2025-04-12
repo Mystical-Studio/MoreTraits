@@ -16,4 +16,39 @@
     </degreeDatas>
   </TraitDef>
 
+  <TraitDef>
+    <defName>JackOfAllTrades</defName>
+    <label>Jack of All Trades</label>
+    <commonality>0.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>Jack of All Trades</label>
+        <description>{PAWN_nameDef} is pretty good at everything, but not great at anything</description>
+        <statFactors>
+          <GlobalLearningFactor>0.5</GlobalLearningFactor>
+        </statFactors>
+        <skillGains>
+          <Shooting>5</Shooting>
+          <Melee>5</Melee>
+          <Construction>5</Construction>
+          <Mining>5</Mining>
+          <Cooking>5</Cooking>
+          <Plants>5</Plants>
+          <Animals>5</Animals>
+          <Crafting>5</Crafting>
+          <Artistic>5</Artistic>
+          <Medicine>5</Medicine>
+          <Social>5</Social>
+          <Intellectual>5</Intellectual>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>TooSmart</li>
+      <li>Brawler</li>
+      <li>Wimp</li>
+      <li>Pyromaniac</li>
+    </conflictingTraits>
+  </TraitDef>
+
 </Defs>
