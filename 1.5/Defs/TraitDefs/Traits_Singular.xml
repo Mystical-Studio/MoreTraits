@@ -51,4 +51,23 @@
     </conflictingTraits>
   </TraitDef>
 
+  <TraitDef>
+    <defName>BrutallyEfficient</defName>
+    <label>Brutally Efficient</label>
+    <commonality>0.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>Brutally Efficient</label>
+        <description>{PAWN_nameDef} gets things done fast, but lacks finesse</description>
+        <statFactors>
+          <WorkSpeedGlobal>1.3</WorkSpeedGlobal>
+          <ConstructSuccessChance>0.7</ConstructSuccessChance>
+        </statFactors>
+        <skillGains>
+          <Artistic>-3</Artistic>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
 </Defs>
