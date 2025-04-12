@@ -8,7 +8,10 @@
     <degreeDatas>
       <li>
         <label>optimist+</label>
-        <description>This pawn always feels a bit better about everything.</description>
+        <description>{PAWN_nameDef} always feels a bit better about everything. However, their excessive optimism can rub others the wrong way .</description>
+        <skillGains>
+          <Social>-1</Social>
+        </skillGains>
       </li>
     </degreeDatas>
   </TraitDef>

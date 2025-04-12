@@ -17,14 +17,6 @@ namespace MoreTraits.Thoughts
             {
                 Log.Message("OptimistPlus trait is active, triggering thought.");
 
-                var socialSkill = p.skills.GetSkill(SkillDefOf.Social);
-                Log.Message($"Social skill before adjustment: {p.skills.GetSkill(SkillDefOf.Social).Level}");
-                if (socialSkill != null)
-                {
-                    socialSkill.Level = Mathf.Max(0, socialSkill.Level - 1);
-                    Log.Message($"Social skill after adjustment: {p.skills.GetSkill(SkillDefOf.Social).Level}");
-                }
-
                 return ThoughtState.ActiveDefault;
             }
             return ThoughtState.Inactive;
