@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <TraitDef>
+    <defName>Veteran</defName>
+    <label>Veteran+</label>
+    <commonality>0.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>Veteran</label>
+        <description>{PAWN_nameDef} has seen countless battles and knows how to stay calm in the thick of it .</description>
+        <statFactors>
+          <MoveSpeed>1.1</MoveSpeed>
+        </statFactors>
+        <skillGains>
+          <Shooting>6</Shooting>
+          <Melee>4</Melee>
+          <Social>-4</Social>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>
