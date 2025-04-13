@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
 
-  <TraitDef>
-    <defName>OptimistPlus</defName>
-    <label>optimist+</label>
-    <commonality>0.5</commonality>
-    <degreeDatas>
-      <li>
-        <label>optimist+</label>
-        <description>{PAWN_nameDef} always feels a bit better about everything. However, their excessive optimism can rub others the wrong way .</description>
-        <skillGains>
-          <Social>-1</Social>
-        </skillGains>
-      </li>
-    </degreeDatas>
-  </TraitDef>
+<Defs>
 
   <TraitDef>
     <defName>JackOfAllTrades</defName>
@@ -69,27 +55,5 @@
       </li>
     </degreeDatas>
   </TraitDef>
-
-  <TraitDef>
-    <defName>ConspiracyTheorist</defName>
-    <label>Conspiracy Theorist</label>
-    <commonality>0.5</commonality>
-    <degreeDatas>
-      <li>
-        <label>Conspiracy Theorist</label>
-        <description>{PAWN_nameDef} trusts no one, not even you</description>
-        <statFactors>
-          <NegotiationAbility>-0.4</NegotiationAbility>
-        </statFactors>
-        <skillGains>
-          <Social>-2</Social>
-          <Intellectual>3</Intellectual>
-        </skillGains>
-      </li>
-    </degreeDatas>
-    <conflictingTraits>
-      <li>Kind</li>
-    </conflictingTraits>
-  </TraitDef>
-
+  
 </Defs>
