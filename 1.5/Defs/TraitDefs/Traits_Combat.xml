@@ -4,7 +4,7 @@
 
   <TraitDef>
     <defName>Veteran</defName>
-    <label>Veteran+</label>
+    <label>Veteran</label>
     <commonality>0.5</commonality>
     <degreeDatas>
       <li>
@@ -21,5 +21,36 @@
       </li>
     </degreeDatas>
   </TraitDef>
+
+  <TraitDef>
+    <defName>Reckless</defName>
+    <label>Reckless</label>
+    <commonality>0.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>Reckless</label>
+        <description>{PAWN_nameDef} charges into battle without thinking of the consequences .</description>
+        <statFactors>
+          <MoveSpeed>1.1</MoveSpeed>
+          <MeleeDodgeChance>0.85</MeleeDodgeChance>
+          <ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+        </statFactors>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>BloodlustPlus</defName>
+    <label>Bloodlust+</label>
+    <commonality>0.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>Bloodlust+</label>
+        <description>{PAWN_nameDef} feels alive only during the chaos of battle .</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  
 
 </Defs>

@@ -13,5 +13,21 @@
       </li>
     </stages>
   </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>BloodlustPlusThought</defName>
+    <durationDays>0.5</durationDays>
+    <stackLimit>1</stackLimit>
+    <workerClass>MoreTraits.Thoughts.ThoughtWorker_BloodlustPlus</workerClass>
+    <stages>
+      <li>
+        <label>feels alive</label>
+        <description>Killing makes this pawn feel alive.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  
   
 </Defs>
